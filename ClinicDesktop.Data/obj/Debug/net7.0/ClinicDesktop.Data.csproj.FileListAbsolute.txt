@@ -1,0 +1,12 @@
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\bin\Debug\net7.0\ClinicDesktop.Data.deps.json
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\bin\Debug\net7.0\ClinicDesktop.Data.dll
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\bin\Debug\net7.0\ClinicDesktop.Data.pdb
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.csproj.AssemblyReference.cache
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.AssemblyInfoInputs.cache
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.AssemblyInfo.cs
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.csproj.CoreCompileInputs.cache
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.dll
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\refint\ClinicDesktop.Data.dll
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.pdb
+D:\learningCode\architecture\sem10\lesson10\lesson10\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ref\ClinicDesktop.Data.dll
