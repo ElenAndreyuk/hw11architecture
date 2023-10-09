@@ -1,3 +1,5 @@
+У меня не заработал контроллер консультаций из ДЗ 10, я сама не нашла ошибку. Не придумала ничего лучше чем положить код в ридми
+
 using Microsoft.AspNetCore.Mvc;
 using WebApplication10.Models.Requests;
 using WebApplication10.Models;
