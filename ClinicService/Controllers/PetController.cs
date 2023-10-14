@@ -8,7 +8,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace WebApplication10.Controllers
 {
-    public class PetController : Controller
+    public class PetController : ControllerBase
     {
 
 
@@ -21,7 +21,7 @@ namespace WebApplication10.Controllers
 
         [HttpPost("create")]
         [SwaggerOperation(OperationId = "PetCreate")]
-        public IActionResult Create([FromBody] CreatePetRequest createRequest)
+        public ActionResult Create([FromBody] CreatePetRequest createRequest)
         {
             int res = _petRepository.Create(new Pet
             {
@@ -34,7 +34,7 @@ namespace WebApplication10.Controllers
 
         [HttpPut("update")]
         [SwaggerOperation(OperationId = "PetUpdate")]
-        public IActionResult Update([FromBody] UpdatePetRequest updateRequest)
+        public ActionResult Update([FromBody] UpdatePetRequest updateRequest)
         {
             int res = _petRepository.Update(new Pet
             {
@@ -48,7 +48,7 @@ namespace WebApplication10.Controllers
 
         [HttpDelete("delete")]
         [SwaggerOperation(OperationId = "PetDelete")]
-        public IActionResult Delete([FromQuery] int petId)
+        public ActionResult Delete([FromQuery] int petId)
         {
             int res = _petRepository.Delete(petId);
             return Ok(res);
@@ -56,7 +56,7 @@ namespace WebApplication10.Controllers
 
         [HttpGet("get-all")]
         [SwaggerOperation(OperationId = "PetGetAll")]
-        public IActionResult GetAll()
+        public ActionResult GetAll()
         {
             return Ok(_petRepository.GetAll());
         }
@@ -64,7 +64,7 @@ namespace WebApplication10.Controllers
 
         [HttpGet("get/{petId}")]
         [SwaggerOperation(OperationId = "PetGetById")]
-        public IActionResult GetById([FromRoute] int petId)
+        public ActionResult GetById([FromRoute] int petId)
         {
             return Ok(_petRepository.GetById(petId));
         }
